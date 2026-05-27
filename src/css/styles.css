@@ -13,14 +13,14 @@ body {
   padding: 20px;
 }
 
-.search-form {
+.form {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 32px;
 }
 
-.search-form input {
+.form input {
   padding: 8px 16px;
   border: 1px solid #808080;
   border-radius: 4px;
@@ -29,15 +29,15 @@ body {
   outline: none;
 }
 
-.search-form input:hover {
+.form input:hover {
   border-color: #000;
 }
 
-.search-form input:focus {
+.form input:focus {
   border-color: var(--primary-color);
 }
 
-.search-form button {
+.form button {
   padding: 8px 20px;
   background-color: var(--primary-color);
   color: #fff;
@@ -48,7 +48,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.search-form button:hover {
+.form button:hover {
   background-color: #6c8cff;
 }
 
